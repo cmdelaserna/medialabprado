@@ -7,12 +7,14 @@
 <p>Plantillas de CartoDB:</p>
 <p>https://github.com/CartoDB/cartodb-publishing-templates</p>
 
+![Alt text](img/img5.png "intensity map")
+
 
 
 <h3>Workshop</h3>
 <p>El primer ejercicio consiste en importar datos a CartoDB y combinarlos en una única tabla para la elaboración de un mapa del paro en España.</p>
 
-<p>Los Datos de las provincias españolas están disponibles en:</p> 
+<p>Los datos de las provincias españolas están disponibles en:</p> 
 <p>http://2read.cartodb.com/tables/spain_provinces/public/</p>
 
 <p>Datos del paro (4º trimestre de 2012):</p> 
@@ -21,18 +23,18 @@
 
 <p>Para unir las dos tablas, utilizamos la función "merge tables" del panel de CartoDB. Elegimos la tabla que queremos combinar y seleccionamos la columna que utilizaremos como referencia ("provincia" y "provincias") más las que queremos importar. Asignamos un nombre a la nueva tabla.  
 
-![Alt text](img/img1.png "screenshot 1")
+![Alt text](img/img1.png "merge tables")
 
 
 
 <h3>Elaboración del mapa del paro</h3>
 <p>Los datos están en la columna "paro_2012iv". Transformamos la columna de "string" a "numbers" (para poder utilizarla como referencia para elaborar el mapa).</p>
 
-![Alt text](img/img2.png "screenshot 2")
+![Alt text](img/img2.png "edit columns")
 
 <p>En la vista de "map view", elegimos el mapa de base y editamos el estilo del mapa a través del menú "visualization wizard". </p>
 
-![Alt text](img/img3.png "screenshot 3")
+![Alt text](img/img3.png "visualization wizard")
 
 <p>El mapa se puede publicar a través de la función "share". </p>
 
@@ -41,16 +43,17 @@
 <p>Utilizamos la tabla siguiente:</p> 
 <p>http://2read.cartodb.com/tables/madrid_mercados_puntos/public/</p>
 
-<p>Query utilizada para unir las tres tablas originales:</p> 
+<p>La tabla incluye los datos de tres archivos. Los he unido utilizando esta función: </p> 
 <code>SELECT 'abastos' as new_table, the_geom, denominaci, direccion FROM abastos UNION SELECT 'galerias' as new_table, the_geom, direccion, nombre from galimenta UNION select 'hipermercados' as new_table, the_geom, direccion, eti FROM hipermercados</code>
 
 <p>Añade una imagen al infowindow</p>
 
-![Alt text](img/img4.png "screenshot 4")
+![Alt text](img/img4.png "image infowindow cartocss")
 
 <p>Edita los estilos (diferenciar puntos)</p>
 
 <p>Crear un polígono, puntos o líneas + cartocss building-height</p>
-![Alt text](img/img6.png "screenshot 5")
+![Alt text](img/img6.png "building-height cartocss")
 
-<p>Importa datos de CartoCSS</p>
+<p>Importa datos de OpenStreetMap</p>
+<p>http://www.slideshare.net/andrewxhill/using-cartodb-to-analyze-openstreetmap-data</p>
