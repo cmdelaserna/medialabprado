@@ -61,7 +61,7 @@
 
 <h4>Elaboración de un mapa de intensidad</h4>
 <p>Editamos el código CartoCSS para definir un mapa de intensidad de mercados y puntos de venta de alimentos en Madrid.</p>
-<p>Código CartoCSS: https://gist.github.com/cmdelaserna/1b44e2be33b176422d20</p>
+<p>Código CartoCSS: https://gist.github.com/cmdelaserna/4726629</p>
 <p>Mapa de mercados y galerías de alimentación en Madrid: http://cdb.io/VGx3Ko</p>
 ![Alt text](img/5.png "intensity map")
 
