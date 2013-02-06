@@ -50,42 +50,12 @@
 <code>SELECT 'abastos' as new_table, the_geom, denominaci, direccion FROM abastos<br>UNION SELECT 'galerias' as new_table, the_geom, direccion, nombre from galimenta<br>UNION SELECT 'hipermercados' as new_table, the_geom, direccion, eti FROM hipermercados</code>
 
 <p>Añadir una **imagen** al infowindow</p>
-<code>
-	#madrid_mercados {
-  marker-opacity: 0.9;
-  marker-width: 12;
-  marker-line-color: #999;
-  marker-line-width: 1;
-  marker-line-opacity: 0.9;
-  marker-placement: point;
-  marker-type: ellipse;
-  marker-allow-overlap: true;
-}
-#madrid_mercados [new_table = 'abastos'] {
-  marker-fill: #FC8D59;
-}
-#madrid_mercados [new_table = 'galerias'] {
-  marker-fill: #FFFFBF;
-}
-#madrid_mercados [new_table = 'hipermercados'] {
-  marker-fill: #99D594;
-}
-
-#madrid_mercados::labels {
-  text-name: [new_table];
-  text-face-name: 'DejaVu Sans Book';
-  text-size: 10;
-  text-fill: #000;
-  text-allow-overlap: true;
-  text-halo-fill: #FFF;
-  text-halo-radius: 1;
-  text-dy: -10;
-}
-</code>
 
 ![Alt text](img/4.png "image infowindow cartocss")
 
 <p>Editamos los estilos (diferenciar puntos)</p>
+<p>Código CartoCSS: https://gist.github.com/cmdelaserna/1b44e2be33b176422d20</p>
+<p>Mapa: http://cdb.io/Wza1lw</p>
 
 <p>Crear un polígono, puntos o líneas + cartocss **building-height**</p>
 ![Alt text](img/6.png "building-height cartocss")
