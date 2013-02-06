@@ -20,7 +20,7 @@
 <p>http://2read.cartodb.com/tables/paro_spain_2012iv/public/</p>
 
 <p>La primera tabla contiene la información geográfica sobre las provincias de España en un archivo shapefile comprimido. Para importarla, sólo es necesario arrastrar el archivo .zip (sin descomprimir) al panel de usuario de CartoDB. El archivo con los datos del paro se importa de la misma forma. </p>
-<p>Para unir las dos tablas, y poder elaborar un mapa de [cloropetas](http://www.ncgia.ucsb.edu/cctp/units/unit47/html/mas_form.html) con los datos del paro, utilizamos la función **"merge tables"**. Desde la tabla con la información geográfica, elegimos la tabla y la información que queremos combinar y seleccionamos la columna que utilizaremos como referencia (en este caso, "provincia" y "provincias"). Asignamos un nombre a la nueva tabla.</p>  
+<p>Para unir las dos tablas, y poder elaborar un mapa de [cloropetas](http://www.ncgia.ucsb.edu/cctp/units/unit47/html/mas_form.html) con los datos del paro, utilizamos la función ;"merge tables";. Desde la tabla con la información geográfica, elegimos la tabla y la información que queremos combinar y seleccionamos la columna que utilizaremos como referencia (en este caso, "provincia" y "provincias"). Asignamos un nombre a la nueva tabla.</p>  
 
 ![Alt text](img/1.png "merge tables")
 
@@ -39,26 +39,26 @@
 
 ![Alt text](img/3.png "visualization wizard")
 
-<p>El mapa se puede publicar a través de la función **"share"**. </p>
+<p>El mapa se puede publicar a través de la función "share". </p>
 
 
 <h3>Edición avanzada</h3>
 <p>Utilizamos la tabla siguiente:</p> 
 <p>http://2read.cartodb.com/tables/madrid_mercados_puntos/public/</p>
 
-<p>La tabla incluye los datos de tres archivos. Los he unido utilizando esta función en el **menú SQL**: </p> 
+<p>La tabla incluye los datos de tres archivos. Los he unido utilizando esta función en el menú SQL: </p> 
 <code>SELECT 'abastos' as new_table, the_geom, denominaci, direccion FROM abastos<br>UNION SELECT 'galerias' as new_table, the_geom, direccion, nombre from galimenta<br>UNION SELECT 'hipermercados' as new_table, the_geom, direccion, eti FROM hipermercados</code>
 
-<p>Añadir una **imagen** al infowindow</p>
+<h4>Añadir una imagen al infowindow</h4>
 
 ![Alt text](img/4.png "image infowindow cartocss")
 
-<p>Editamos los estilos (diferenciar puntos)</p>
+<h4>Editamos los estilos (diferenciar puntos)</h4>
 <p>Código CartoCSS: https://gist.github.com/cmdelaserna/1b44e2be33b176422d20</p>
 <p>Mapa: http://cdb.io/Wza1lw</p>
 
-<p>Crear un polígono, puntos o líneas + cartocss **building-height**</p>
+<h4>Crear un polígono, puntos o líneas + cartocss building-height</h4>
 ![Alt text](img/6.png "building-height cartocss")
 
-<p>Importa datos de OpenStreetMap</p>
+<h4>Importa datos de OpenStreetMap</h4>
 <p>http://www.slideshare.net/andrewxhill/using-cartodb-to-analyze-openstreetmap-data</p>
