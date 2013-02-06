@@ -44,7 +44,7 @@ h3>Edición avanzada</h3>
 ![Alt text](img/img6.png "screenshot 5")
 
 <p>Plantillas:</p> 
-![Alt text](img/img4.png "screenshot 4")
+![Alt text](img/img5.png "screenshot 4")
 
 <p>CartDB templates:</p>
 <p>[https://github.com/CartoDB/cartodb-publishing-templates](https://github.com/CartoDB/cartodb-publishing-templates)
