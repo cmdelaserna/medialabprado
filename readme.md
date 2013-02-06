@@ -1,5 +1,6 @@
 <h1>Workshop - Grupo de Periodismo de Datos del Medialab Prado<h1>
 <h2>Enlaces y recursos adicionales</h2>
+<p></p>
 
 <p>Los archivos incluidos en este repositorio (index.html, CSS) contienen todos los elementos necesarios para publicar un mapa elaborado con CartoDB en una plantilla de información. La plantilla ha sido elaborada por [@saleiva](https://github.com/CartoDB/cartodb-publishing-templates). 
 ![Alt text](img/img5.png "screenshot 4")
