@@ -2,7 +2,7 @@
 
 <p>Enlaces e información complementaria recopilados con motivo del taller sobre elaboración de mapas interactivos organizado por el grupo de Periodismo de Datos de MediaLab Prado (feb. 2013, http://medialab-prado.es/article/periodismo_datos_mapas_interactivos).<p>
 
-<p>Los archivos incluidos (index.html, CSS) contienen todos los elementos necesarios para publicar un mapa elaborado con CartoDB en una plantilla de información (pc, iPad y móvil), elaborada por [@saleiva](https://twitter.com/saleiva). </p>
+<p>Los archivos incluidos (index.html, CSS) contienen todos los elementos necesarios para publicar un mapa elaborado con CartoDB en una plantilla de información (pc, iPad y móvil), elaborada por @saleiva (https://twitter.com/saleiva). </p>
 
 <p>Más plantillas de CartoDB: https://github.com/CartoDB/cartodb-publishing-templates</p>
 
