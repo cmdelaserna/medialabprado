@@ -56,7 +56,7 @@
 <p>Código CartoCSS: https://gist.github.com/cmdelaserna/1b44e2be33b176422d20</p>
 <p>Mapa: http://cdb.io/Wza1lw</p>
 
-<h4>Cómo crear un polígono y editar su altura</h4>
+<h4>Cómo crear un polígono y representar su altura</h4>
 ![Alt text](img/6.png "building-height cartocss")
 
 <h4>Elaboración de un mapa de intensidad</h4>
