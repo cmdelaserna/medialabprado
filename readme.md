@@ -11,17 +11,17 @@
 
 <p>Para unir las dos tablas, utilizamos la función "merge tables" del panel de CartoDB. Elegimos la tabla que queremos combinar y seleccionamos la columna que utilizaremos como referencia ("provincia" y "provincias") más las que queremos importar. Asignamos un nombre a la nueva tabla.  
 
-![Alt text](img/img1.jpg "screenshot 1")
+![Alt text](img/img1.png "screenshot 1")
 
 
 <h3>Elaboración del mapa del paro</h3>
 <p>Los datos están en la columna "paro_2012iv". Transformamos la columna de "string" a "numbers".</p>
 
-![Alt text](img/img2.jpg "screenshot 2")
+![Alt text](img/img2.png "screenshot 2")
 
 <p>En la vista de map view, elegimos el mapa de base y editamos el estilo del mapa a través del menú "visualization wizard". </p>
 
-![Alt text](img/img3.jpg "screenshot 3")
+![Alt text](img/img3.png "screenshot 3")
 
 
 <p>Podemos compartir el mapa a través de la función "share". </p>
@@ -36,15 +36,15 @@ h3>Edición avanzada</h3>
 
 <p>Añade una imagen al infowindow</p>
 
-![Alt text](img/img4.jpg "screenshot 4")
+![Alt text](img/img4.png "screenshot 4")
 
 <p>Edita los estilos (diferenciar puntos)</p>
 
 <p>Crear un polígono, puntos o líneas + cartocss building-height</p>
-![Alt text](img/img6.jpg "screenshot 5")
+![Alt text](img/img6.png "screenshot 5")
 
 <p>Plantillas:</p> 
-![Alt text](img/img4.jpg "screenshot 4")
+![Alt text](img/img4.png "screenshot 4")
 
 <p>CartDB templates:</p>
 <p>[https://github.com/CartoDB/cartodb-publishing-templates](https://github.com/CartoDB/cartodb-publishing-templates)
