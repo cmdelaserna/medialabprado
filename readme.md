@@ -6,9 +6,6 @@
 
 <p>Más plantillas de CartoDB: https://github.com/CartoDB/cartodb-publishing-templates</p>
 
-![Alt text](img/5.png "intensity map")
-
-
 
 <h3>Workshop</h3>
 <p>El primer ejercicio del taller es una introducción al periodismo de datos con mapas. Se muestra cómo recopilar datos, importarlos a CartoDB y combinarlos varias tablas para la elaboración de un mapa dinámico del paro en España.</p>
@@ -59,6 +56,11 @@
 
 <h4>Crear un polígono, puntos o líneas + cartocss building-height</h4>
 ![Alt text](img/6.png "building-height cartocss")
+
+<h4>Elaboración de un mapa de intensidad</h4>
+![Alt text](img/5.png "intensity map")
+<p>Código CartoCSS: https://gist.github.com/cmdelaserna/1b44e2be33b176422d20</p>
+<p>Mapa de mercados y galerías de alimentación en Madrid: http://cdb.io/VGx3Ko</p>
 
 <h4>Importa datos de OpenStreetMap</h4>
 <p>http://www.slideshare.net/andrewxhill/using-cartodb-to-analyze-openstreetmap-data</p>
