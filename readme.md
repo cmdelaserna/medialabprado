@@ -44,7 +44,7 @@
 <p>http://2read.cartodb.com/tables/madrid_mercados_puntos/public/</p>
 
 <p>La tabla incluye los datos de tres archivos. Los he unido utilizando esta función: </p> 
-<code>SELECT 'abastos' as new_table, the_geom, denominaci, direccion FROM abastos UNION SELECT 'galerias' as new_table, the_geom, direccion, nombre from galimenta UNION select 'hipermercados' as new_table, the_geom, direccion, eti FROM hipermercados</code>
+<code>SELECT 'abastos' as new_table, the_geom, denominaci, direccion FROM abastos<br>UNION SELECT 'galerias' as new_table, the_geom, direccion, nombre from galimenta<br>UNION SELECT 'hipermercados' as new_table, the_geom, direccion, eti FROM hipermercados</code>
 
 <p>Añade una imagen al infowindow</p>
 
