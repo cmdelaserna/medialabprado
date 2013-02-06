@@ -46,15 +46,15 @@
 <p>La tabla incluye los datos de tres archivos. Los he unido utilizando esta función en el menú SQL: </p> 
 <code>SELECT 'abastos' as new_table, the_geom, denominaci, direccion FROM abastos<br>UNION SELECT 'galerias' as new_table, the_geom, direccion, nombre from galimenta<br>UNION SELECT 'hipermercados' as new_table, the_geom, direccion, eti FROM hipermercados</code>
 
-<h4>Añadir una imagen al infowindow</h4>
+<h4>Cómo añadir una imagen al infowindow</h4>
 
 ![Alt text](img/4.png "image infowindow cartocss")
 
-<h4>Editamos los estilos (diferenciar puntos)</h4>
+<h4>CartoCSS</h4>
 <p>Código CartoCSS: https://gist.github.com/cmdelaserna/1b44e2be33b176422d20</p>
 <p>Mapa: http://cdb.io/Wza1lw</p>
 
-<h4>Crear un polígono, puntos o líneas + cartocss building-height</h4>
+<h4>Cómo crear un polígono + cartocss building-height</h4>
 ![Alt text](img/6.png "building-height cartocss")
 
 <h4>Elaboración de un mapa de intensidad</h4>
