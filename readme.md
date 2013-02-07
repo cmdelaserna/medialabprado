@@ -57,8 +57,8 @@
 <p>Mapa: http://cdb.io/Wza1lw</p>
 
 <h4>Cómo crear un polígono y representar su altura</h4>
-<p>La función "add feature", disponible en la vista de "map view", permite pintar un polígono, un punto o una línea sobre el mapa. Para este ejercicio creamos un polígono. En la vista de tabla vemos que se ha añadido un registro que contiene la geometría del polígono. Añadimos un campo que sea "height", e indicamos un valor. Para representar la altura del edificio según este valor, añadimos al CartoCSS: 
-<code>building-height:[altura]</code>
+<p>La función "add feature", disponible en la vista de "map view", permite pintar un polígono, un punto o una línea sobre el mapa. Para este ejercicio creamos un polígono. En la vista de tabla vemos que se ha añadido un registro que contiene la geometría del polígono. Añadimos un campo que sea "height", e indicamos un valor. Para representar la altura del edificio según este valor, añadimos al CartoCSS una línea: 
+<p><code>building-height:[altura]</code></p>
 ![Alt text](img/6.png "building-height cartocss")
 
 <h4>Elaboración de un mapa de intensidad</h4>
