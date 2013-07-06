@@ -1,5 +1,5 @@
 <h1>Making maps with CartoDB<h1> 
-<h2>Outline for a Workshop</h2>
+<h3>Outline for a Workshop</h3>
 
 <p>Links and resources collected for the workshop on mapmaking with CartoDB as a tool for journalism, held at the <a href="http://medialab-prado.es/article/periodismo_datos_mapas_interactivos">MediaLab Prado Data Journalism group</a> (feb. 2013).<p>
 

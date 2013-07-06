@@ -1,5 +1,5 @@
 <h1>Elaboración de mapas con CartoDB<h1> 
-	<h2>Guión para un taller</h2>
+	<h3>Guión para un taller</h3>
 
 <p>Enlaces e información complementaria recopilados para el taller sobre elaboración de mapas interactivos del grupo de Periodismo de Datos MediaLab Prado (feb. 2013, http://medialab-prado.es/article/periodismo_datos_mapas_interactivos).<p>
 
