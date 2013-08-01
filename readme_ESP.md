@@ -7,6 +7,8 @@
 
 <p>Más plantillas de CartoDB: https://github.com/CartoDB/cartodb-publishing-templates</p>
 
+<p><strong>Nota:</strong> Desde la versión 2.1, CartoDB permite añadir hasta tres capas de datos a un mapa y varias nuevas funciones no incluidas en este tutorial. Pincha el <a href="http://blog.cartodb.com/post/55209377679/we-have-released-cartodb-2-1-enjoy-multilayer-maps-and">enlace</a> para leer una descripción completa de las nuevas funciones. </p>
+
 
 <h3>Taller</h3>
 <p>El primer ejercicio del taller es una introducción al periodismo de datos con mapas. Se muestra cómo recopilar datos, importarlos a CartoDB y combinar varias tablas para la elaboración de un mapa dinámico del paro en España.</p>
