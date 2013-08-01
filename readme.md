@@ -1,7 +1,7 @@
 <h2>Making maps with CartoDB<h2> 
-<h3>- Outline for a Workshop -</h3>
+<h3>- Outline for a Workshop & mapping class-</h3>
 
-<p>Links and resources collected for the workshop on mapmaking with CartoDB as a tool for journalism, held at the <a href="http://medialab-prado.es/article/periodismo_datos_mapas_interactivos">MediaLab Prado Data Journalism group</a> (feb. 2013).<p>
+<p>Links and resources collected for the workshop on mapmaking with CartoDB as a tool for journalism, held at the <a href="http://medialab-prado.es/article/periodismo_datos_mapas_interactivos">MediaLab Prado Data Journalism group</a> (feb. 2013), and the Master on Digital Journalism (IE Business School). <p>
 
 <p>Full download includes all data files and a responsive <a href="http://developers.cartodb.com/documentation/cartodb-js.html">CartoDBjs</a> template made by <a href="https://twitter.com/saleiva">@saleiva</a>. </p>
 
