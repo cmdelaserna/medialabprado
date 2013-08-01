@@ -7,7 +7,7 @@
 
 <p>More CartoDB templates: https://github.com/CartoDB/cartodb-publishing-templates</p>
 
-<p><strong>Note:</strong> CartoDB 2.1 adds multilayer support and some new features not included in this tutorial. Check this <a href="http://blog.cartodb.com/post/55209377679/we-have-released-cartodb-2-1-enjoy-multilayer-maps-and">link</a> for a full description of the new features</p>
+<p><strong>Note:</strong> CartoDB 2.1 adds multilayer support and some new features not included in this tutorial. Check this <a href="http://blog.cartodb.com/post/55209377679/we-have-released-cartodb-2-1-enjoy-multilayer-maps-and">link</a> for a full description</p>
 
 
 <h3>Workshop</h3>
