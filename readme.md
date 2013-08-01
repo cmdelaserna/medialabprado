@@ -7,6 +7,8 @@
 
 <p>More CartoDB templates: https://github.com/CartoDB/cartodb-publishing-templates</p>
 
+<p><strong>Note: CartoDB 2.1 adds multilayer support and some new features not included in this tutorial. Check this <a href="http://blog.cartodb.com/post/55209377679/we-have-released-cartodb-2-1-enjoy-multilayer-maps-and">link</a> for a full description on the new features</p></strong>
+
 
 <h3>Workshop</h3>
 <p>The workshop is planned as an introduction to data journalism with maps. First, it is shown how to upload and combine data into CartoDB to elaborate a map of unemployment in Spain. </p>
